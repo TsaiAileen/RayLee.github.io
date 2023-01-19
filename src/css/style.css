@@ -924,7 +924,7 @@ div.table {
 }
 
 #headerService2 {
-  background-color: #0563bb;
+  background-color: #cf6a5f;
 }
 
 /* text data container box */
@@ -993,7 +993,7 @@ li.standard {
 }
 
 li.standard2 {
-  color: #0563bb;
+  color: #cf6a5f;
 }
 
 /* dollar sign */
@@ -1028,7 +1028,7 @@ li.perHour {
 	height: 50px;
 	width: 220px;
 	margin-top: 30px;
-  	margin-bottom: 30px;
+  margin-bottom: 30px;
 	color: white;
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -1045,7 +1045,7 @@ li.perHour {
 }
 
 .buttonStandard2 {
-  background-color: #0563bb;
+  background-color: #cf6a5f;
 }
 
 /* table grows on hover */
@@ -1056,6 +1056,72 @@ div.table:hover {
 /* button on hover */
 .button:hover {
 	cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+# Testimonial
+--------------------------------------------------------------*/
+.testimonial .people {
+  padding:50px 0 20px;
+}
+
+.testimonial .item {
+  margin-bottom:32px;
+}
+
+@media (min-width:768px) {
+  .testimonial .item {
+    height:220px;
+  }
+}
+
+.testimonial .item .box {
+  padding:30px;
+  background-color:#0563bb;
+  position:relative;
+  border-radius: 5px;
+}
+
+.testimonial .item .box::after {
+  content:'';
+  position:absolute;
+  left:30px;
+  bottom:-24px;
+  width:0;
+  height:0;
+  border:15px solid transparent;
+  border-width:12px 15px;
+  border-top-color:#0563bb;
+}
+
+.testimonial .item .author {
+  margin-top:28px;
+  padding-left:25px;
+}
+
+.testimonial .item .name {
+  font-weight:bold;
+  margin-bottom:2px;
+  color:inherit;
+  padding-top: 7px;
+}
+
+.testimonial .item .title {
+  font-size:13px;
+  color:#777879;
+}
+
+.testimonial .item .description {
+  font-size:15px;
+  margin-bottom:0;
+  color: white;
+}
+
+.testimonial .item img {
+  max-width:25%;
+  float:left;
+  margin-right:12px;
 }
 
 
